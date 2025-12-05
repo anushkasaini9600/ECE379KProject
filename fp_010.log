@@ -1,0 +1,1412 @@
+Starting monitor in 'detection' mode on port 5002, backend=http://127.0.0.1:5001
+ * Serving Flask app 'monitoring'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://10.3.48.251:5002
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 108-843-946
+127.0.0.1 - - [05/Dec/2025 17:11:30] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:30] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:30] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:30] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:30] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:30] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:30] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:30] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:30] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:30] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:30] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:30] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:30] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:30] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:30] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:30] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:30] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:30] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:30] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:30] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:30] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:30] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:30] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:30] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:30] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:30] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:30] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:30] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:30] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:30] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:30] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:30] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:30] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:30] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:31] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+Starting monitor in 'detection' mode on port 5002, backend=http://127.0.0.1:5001
+[METRIC] latency=0.0066s sid=ed2f9242-8b1f-4965-ba3a-650f53d1410f
+[METRIC] latency=0.0014s sid=ed2f9242-8b1f-4965-ba3a-650f53d1410f
+[METRIC] latency=0.0012s sid=ed2f9242-8b1f-4965-ba3a-650f53d1410f
+[METRIC] latency=0.0013s sid=ed2f9242-8b1f-4965-ba3a-650f53d1410f
+[METRIC] latency=0.0023s sid=ed2f9242-8b1f-4965-ba3a-650f53d1410f
+[METRIC] latency=0.0013s sid=ed2f9242-8b1f-4965-ba3a-650f53d1410f
+[METRIC] latency=0.0016s sid=41e6a417-4074-48bb-90fd-ed8985a5b4cf
+[METRIC] latency=0.0013s sid=41e6a417-4074-48bb-90fd-ed8985a5b4cf
+[METRIC] latency=0.0014s sid=41e6a417-4074-48bb-90fd-ed8985a5b4cf
+[METRIC] latency=0.0014s sid=41e6a417-4074-48bb-90fd-ed8985a5b4cf
+[METRIC] latency=0.0013s sid=41e6a417-4074-48bb-90fd-ed8985a5b4cf
+[METRIC] latency=0.0013s sid=41e6a417-4074-48bb-90fd-ed8985a5b4cf
+[METRIC] latency=0.0015s sid=b5200005-2299-45f3-a516-00b32cb9cda9
+[METRIC] latency=0.0014s sid=b5200005-2299-45f3-a516-00b32cb9cda9
+[METRIC] latency=0.0018s sid=b5200005-2299-45f3-a516-00b32cb9cda9
+[METRIC] latency=0.0013s sid=b5200005-2299-45f3-a516-00b32cb9cda9
+[METRIC] latency=0.0015s sid=b5200005-2299-45f3-a516-00b32cb9cda9
+[METRIC] latency=0.0014s sid=b5200005-2299-45f3-a516-00b32cb9cda9
+[METRIC] latency=0.0014s sid=b5200005-2299-45f3-a516-00b32cb9cda9
+[METRIC] latency=0.0019s sid=1ed6be1a-6ae4-4365-a61e-fd68af06a012
+[METRIC] latency=0.0016s sid=1ed6be1a-6ae4-4365-a61e-fd68af06a012
+[METRIC] latency=0.0014s sid=1ed6be1a-6ae4-4365-a61e-fd68af06a012
+[METRIC] latency=0.0015s sid=1ed6be1a-6ae4-4365-a61e-fd68af06a012
+[METRIC] latency=0.0014s sid=1ed6be1a-6ae4-4365-a61e-fd68af06a012
+[METRIC] latency=0.0015s sid=1ed6be1a-6ae4-4365-a61e-fd68af06a012
+[METRIC] latency=0.0015s sid=1ed6be1a-6ae4-4365-a61e-fd68af06a012
+[METRIC] latency=0.0021s sid=19a3f1bf-0eba-442c-88aa-de77131492d7
+[METRIC] latency=0.0018s sid=19a3f1bf-0eba-442c-88aa-de77131492d7
+[METRIC] latency=0.0019s sid=19a3f1bf-0eba-442c-88aa-de77131492d7
+[METRIC] latency=0.0015s sid=19a3f1bf-0eba-442c-88aa-de77131492d7
+[METRIC] latency=0.0016s sid=62483a68-d90e-4a8c-b580-89a8869ca86f
+[METRIC] latency=0.0014s sid=62483a68-d90e-4a8c-b580-89a8869ca86f
+[METRIC] latency=0.0015s sid=62483a68-d90e-4a8c-b580-89a8869ca86f
+[METRIC] latency=0.0014s sid=62483a68-d90e-4a8c-b580-89a8869ca86f
+[METRIC] latency=0.0014s sid=62483a68-d90e-4a8c-b580-89a8869ca86f
+[METRIC] latency=0.0014s sid=62483a68-d90e-4a8c-b580-89a8869ca86f
+[METRIC] latency=0.0014s sid=62483a68-d90e-4a8c-b580-89a8869ca86f
+[METRIC] latency=0.0013s sid=62483a68-d90e-4a8c-b580-89a8869ca86f
+[METRIC] latency=0.0016s sid=62483a68-d90e-4a8c-b580-89a8869ca86f
+[METRIC] latency=0.0015s sid=62483a68-d90e-4a8c-b580-89a8869ca86f
+[METRIC] latency=0.0013s sid=62483a68-d90e-4a8c-b580-89a8869ca86f
+[METRIC] latency=0.0017s sid=57741e34-61be-40ae-b173-cf530f1e48c7
+[METRIC] latency=0.0017s sid=57741e34-61be-40ae-b173-cf530f1e48c7
+[METRIC] latency=0.0017s sid=57741e34-61be-40ae-b173-cf530f1e48c7
+[METRIC] latency=0.0017s sid=57741e34-61be-40ae-b173-cf530f1e48c7
+[METRIC] latency=0.0024s sid=1a7d5089-1f09-4dba-ac17-fe52d2e2192c
+[METRIC] latency=0.0022s sid=1a7d5089-1f09-4dba-ac17-fe52d2e2192c
+[METRIC] latency=0.0023s sid=1a7d5089-1f09-4dba-ac17-fe52d2e2192c
+[METRIC] latency=0.0022s sid=1a7d5089-1f09-4dba-ac17-fe52d2e2192c
+[METRIC] latency=0.0022s sid=1a7d5089-1f09-4dba-ac17-fe52d2e2192c
+[METRIC] latency=0.0028s sid=1a7d5089-1f09-4dba-ac17-fe52d2e2192c
+[METRIC] latency=0.0051s sid=afcd6f0d-8d71-4148-b0ed-ca32b9f312a0
+[METRIC] latency=0.0037s sid=afcd6f0d-8d71-4148-b0ed-ca32b9f312a0
+[METRIC] latency=0.0029s sid=afcd6f0d-8d71-4148-b0ed-ca32b9f312a0
+[METRIC] latency=0.0023s sid=afcd6f0d-8d71-4148-b0ed-ca32b9f312a0
+[METRIC] latency=0.0054s sid=034e4126-9fac-4e08-8c4a-0b3a5088830f
+[METRIC] latency=0.0025s sid=034e4126-9fac-4e08-8c4a-0b3a5088830f
+[METRIC] latency=0.0023s sid=034e4126-9fac-4e08-8c4a-0b3a5088830f
+[METRIC] latency=0.0027s sid=034e4126-9fac-4e08-8c4a-0b3a5088830f
+[METRIC] latency=0.0023s sid=034e4126-9fac-4e08-8c4a-0b3a5088830f
+[METRIC] latency=0.0022s sid=034e4126-9fac-4e08-8c4a-0b3a5088830f
+[METRIC] latency=0.0023s sid=034e4126-9fac-4e08-8c4a-0b3a5088830f
+[METRIC] latency=0.0021s sid=034e4126-9fac-4e08-8c4a-0b3a5088830f
+[METRIC] latency=0.0026s sid=034e4126-9fac-4e08-8c4a-0b3a5088830f
+[METRIC] latency=0.0027s sid=be01c2f5-e199-40fc-9ef1-1358459efe90
+[METRIC] latency=0.0015s sid=be01c2f5-e199-40fc-9ef1-1358459efe90
+[METRIC] latency=0.0014s sid=be01c2f5-e199-40fc-9ef1-1358459efe90
+[METRIC] latency=0.0015s sid=be01c2f5-e199-40fc-9ef1-1358459efe90
+[METRIC] latency=0.0015s sid=be01c2f5-e199-40fc-9ef1-1358459efe90
+[METRIC] latency=0.0014s sid=be01c2f5-e199-40fc-9ef1-1358459efe90
+[METRIC] latency=0.0014s sid=be01c2f5-e199-40fc-9ef1-1358459efe90
+[METRIC] latency=0.0015s sid=be01c2f5-e199-40fc-9ef1-1358459efe90
+[METRIC] latency=0.0018s sid=02ff2b72-001d-4535-a5a5-d42f302f93f4
+[METRIC] latency=0.0014s sid=02ff2b72-001d-4535-a5a5-d42f302f93f4
+[METRIC] latency=0.0015s sid=02ff2b72-001d-4535-a5a5-d42f302f93f4
+[METRIC] latency=0.0014s sid=02ff2b72-001d-4535-a5a5-d42f302f93f4
+[METRIC] latency=0.0015s sid=02ff2b72-001d-4535-a5a5-d42f302f93f4
+[METRIC] latency=0.0018s sid=02ff2b72-001d-4535-a5a5-d42f302f93f4
+[METRIC] latency=0.0015s sid=02ff2b72-001d-4535-a5a5-d42f302f93f4
+[METRIC] latency=0.0017s sid=b5320bc9-3586-413e-a106-af7b7b72e382
+[METRIC] latency=0.0017s sid=b5320bc9-3586-413e-a106-af7b7b72e382
+[METRIC] latency=0.0014s sid=b5320bc9-3586-413e-a106-af7b7b72e382
+[METRIC] latency=0.0013s sid=b5320bc9-3586-413e-a106-af7b7b72e382
+[METRIC] latency=0.0014s sid=b5320bc9-3586-413e-a106-af7b7b72e382
+[METRIC] latency=0.0013s sid=b5320bc9-3586-413e-a106-af7b7b72e382
+[METRIC] latency=0.0015s sid=b5320bc9-3586-413e-a106-af7b7b72e382
+[METRIC] latency=0.0018s sid=a452f38f-089f-494f-9ff1-85a9a61ed9fd
+[METRIC] latency=0.0015s sid=a452f38f-089f-494f-9ff1-85a9a61ed9fd
+[METRIC] latency=0.0015s sid=a452f38f-089f-494f-9ff1-85a9a61ed9fd
+[METRIC] latency=0.0018s sid=a452f38f-089f-494f-9ff1-85a9a61ed9fd
+[METRIC] latency=0.0017s sid=a452f38f-089f-494f-9ff1-85a9a61ed9fd
+[METRIC] latency=0.0016s sid=a452f38f-089f-494f-9ff1-85a9a61ed9fd
+[METRIC] latency=0.0016s sid=a452f38f-089f-494f-9ff1-85a9a61ed9fd
+[METRIC] latency=0.0016s sid=a452f38f-089f-494f-9ff1-85a9a61ed9fd
+[METRIC] latency=0.0016s sid=a452f38f-089f-494f-9ff1-85a9a61ed9fd
+[METRIC] latency=0.0018s sid=a452f38f-089f-494f-9ff1-85a9a61ed9fd
+[METRIC] latency=0.0024s sid=4c1cb2ad-ff06-4721-b6b5-c9cc82ee1826
+[METRIC] latency=0.0021s sid=4c1cb2ad-ff06-4721-b6b5-c9cc82ee1826
+[METRIC] latency=0.0025s sid=4c1cb2ad-ff06-4721-b6b5-c9cc82ee1826
+[METRIC] latency=0.0022s sid=4c1cb2ad-ff06-4721-b6b5-c9cc82ee1826
+[METRIC] latency=0.0026s sid=4c1cb2ad-ff06-4721-b6b5-c9cc82ee1826
+[METRIC] latency=0.0022s sid=4c1cb2ad-ff06-4721-b6b5-c9cc82ee1826
+[METRIC] latency=0.0021s sid=4c1cb2ad-ff06-4721-b6b5-c9cc82ee1826
+[METRIC] latency=0.0051s sid=76899fa7-aea6-40ac-8834-26e29986a4af
+[METRIC] latency=0.0040s sid=76899fa7-aea6-40ac-8834-26e29986a4af
+[METRIC] latency=0.0023s sid=76899fa7-aea6-40ac-8834-26e29986a4af
+[METRIC] latency=0.0021s sid=76899fa7-aea6-40ac-8834-26e29986a4af
+[METRIC] latency=0.0018s sid=76899fa7-aea6-40ac-8834-26e29986a4af
+[METRIC] latency=0.0023s sid=e05ee694-55c0-4a34-abad-f40945abe495
+[METRIC] latency=0.0020s sid=e05ee694-55c0-4a34-abad-f40945abe495
+[METRIC] latency=0.0023s sid=e05ee694-55c0-4a34-abad-f40945abe495
+[METRIC] latency=0.0022s sid=e05ee694-55c0-4a34-abad-f40945abe495
+[METRIC] latency=0.0023s sid=e05ee694-55c0-4a34-abad-f40945abe495
+[METRIC] latency=0.0020s sid=e05ee694-55c0-4a34-abad-f40945abe495
+[METRIC] latency=0.0023s sid=e05ee694-55c0-4a34-abad-f40945abe495
+[METRIC] latency=0.0034s sid=06d4eea2-9e92-4def-a172-019b0df045ae
+[METRIC] latency=0.0026s sid=06d4eea2-9e92-4def-a172-019b0df045ae
+[METRIC] latency=0.0023s sid=06d4eea2-9e92-4def-a172-019b0df045ae
+[METRIC] latency=0.0025s sid=06d4eea2-9e92-4def-a172-019b0df045ae
+[METRIC] latency=0.0027s sid=06d4eea2-9e92-4def-a172-019b0df045ae
+[METRIC] latency=0.0025s sid=06d4eea2-9e92-4def-a172-019b0df045ae
+[METRIC] latency=0.0026s sid=06d4eea2-9e92-4def-a172-019b0df045ae
+[METRIC] latency=0.0059s sid=443d3911-21f7-4991-acac-01cdb3c68d65127.0.0.1 - - [05/Dec/2025 17:11:32] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:32] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /profile?user=anushka HTTP/1.1" 200 -
+
+[METRIC] latency=0.0030s sid=443d3911-21f7-4991-acac-01cdb3c68d65
+[METRIC] latency=0.0021s sid=443d3911-21f7-4991-acac-01cdb3c68d65
+[METRIC] latency=0.0021s sid=443d3911-21f7-4991-acac-01cdb3c68d65
+[METRIC] latency=0.0023s sid=443d3911-21f7-4991-acac-01cdb3c68d65
+[METRIC] latency=0.0025s sid=443d3911-21f7-4991-acac-01cdb3c68d65
+[METRIC] latency=0.0023s sid=443d3911-21f7-4991-acac-01cdb3c68d65
+[METRIC] latency=0.0022s sid=443d3911-21f7-4991-acac-01cdb3c68d65
+[METRIC] latency=0.0024s sid=443d3911-21f7-4991-acac-01cdb3c68d65
+[METRIC] latency=0.0054s sid=c590d683-42ef-4ae7-9584-a20afa026830
+[METRIC] latency=0.0039s sid=c590d683-42ef-4ae7-9584-a20afa026830
+[METRIC] latency=0.0027s sid=c590d683-42ef-4ae7-9584-a20afa026830
+[METRIC] latency=0.0025s sid=c590d683-42ef-4ae7-9584-a20afa026830
+[METRIC] latency=0.0023s sid=c590d683-42ef-4ae7-9584-a20afa026830
+[METRIC] latency=0.0053s sid=abc09719-f00a-4a47-a836-972698e9ed3d
+[METRIC] latency=0.0027s sid=abc09719-f00a-4a47-a836-972698e9ed3d
+[METRIC] latency=0.0032s sid=abc09719-f00a-4a47-a836-972698e9ed3d
+[METRIC] latency=0.0021s sid=abc09719-f00a-4a47-a836-972698e9ed3d
+[METRIC] latency=0.0021s sid=abc09719-f00a-4a47-a836-972698e9ed3d
+[METRIC] latency=0.0018s sid=abc09719-f00a-4a47-a836-972698e9ed3d
+[METRIC] latency=0.0021s sid=abc09719-f00a-4a47-a836-972698e9ed3d
+[METRIC] latency=0.0016s sid=abc09719-f00a-4a47-a836-972698e9ed3d
+[METRIC] latency=0.0016s sid=abc09719-f00a-4a47-a836-972698e9ed3d
+[METRIC] latency=0.0015s sid=abc09719-f00a-4a47-a836-972698e9ed3d
+[METRIC] latency=0.0019s sid=abc09719-f00a-4a47-a836-972698e9ed3d
+[METRIC] latency=0.0014s sid=abc09719-f00a-4a47-a836-972698e9ed3d
+[METRIC] latency=0.0018s sid=766eb9b8-679b-42bb-a6f8-e1193e6f519d
+[METRIC] latency=0.0016s sid=766eb9b8-679b-42bb-a6f8-e1193e6f519d
+[METRIC] latency=0.0015s sid=766eb9b8-679b-42bb-a6f8-e1193e6f519d
+[METRIC] latency=0.0015s sid=766eb9b8-679b-42bb-a6f8-e1193e6f519d
+[METRIC] latency=0.0015s sid=766eb9b8-679b-42bb-a6f8-e1193e6f519d
+[METRIC] latency=0.0014s sid=766eb9b8-679b-42bb-a6f8-e1193e6f519d
+[METRIC] latency=0.0019s sid=0de8f793-fff9-4b41-a2b0-691d869869f8
+[METRIC] latency=0.0016s sid=0de8f793-fff9-4b41-a2b0-691d869869f8
+[METRIC] latency=0.0014s sid=0de8f793-fff9-4b41-a2b0-691d869869f8
+[METRIC] latency=0.0015s sid=0de8f793-fff9-4b41-a2b0-691d869869f8
+[METRIC] latency=0.0018s sid=0de8f793-fff9-4b41-a2b0-691d869869f8
+[METRIC] latency=0.0015s sid=0de8f793-fff9-4b41-a2b0-691d869869f8
+[METRIC] latency=0.0019s sid=0de8f793-fff9-4b41-a2b0-691d869869f8
+[METRIC] latency=0.0017s sid=0de8f793-fff9-4b41-a2b0-691d869869f8
+[METRIC] latency=0.0024s sid=45a249d8-9c29-4111-9fe1-852d00b7315b
+[METRIC] latency=0.0022s sid=45a249d8-9c29-4111-9fe1-852d00b7315b
+[METRIC] latency=0.0046s sid=45a249d8-9c29-4111-9fe1-852d00b7315b
+[METRIC] latency=0.0020s sid=45a249d8-9c29-4111-9fe1-852d00b7315b
+[METRIC] latency=0.0037s sid=45a249d8-9c29-4111-9fe1-852d00b7315b
+[METRIC] latency=0.0016s sid=45a249d8-9c29-4111-9fe1-852d00b7315b
+[METRIC] latency=0.0016s sid=45a249d8-9c29-4111-9fe1-852d00b7315b
+[METRIC] latency=0.0020s sid=9cbe5330-d07c-4a1b-813d-19b9b4e79316
+[METRIC] latency=0.0019s sid=9cbe5330-d07c-4a1b-813d-19b9b4e79316
+[METRIC] latency=0.0020s sid=9cbe5330-d07c-4a1b-813d-19b9b4e79316
+[METRIC] latency=0.0020s sid=9cbe5330-d07c-4a1b-813d-19b9b4e79316
+[METRIC] latency=0.0019s sid=9cbe5330-d07c-4a1b-813d-19b9b4e79316
+[METRIC] latency=0.0019s sid=9cbe5330-d07c-4a1b-813d-19b9b4e79316
+[METRIC] latency=0.0020s sid=9cbe5330-d07c-4a1b-813d-19b9b4e79316
+[METRIC] latency=0.0021s sid=0cc0fbf1-634a-4a32-b636-eca64ee858d4
+[METRIC] latency=0.0015s sid=0cc0fbf1-634a-4a32-b636-eca64ee858d4
+[METRIC] latency=0.0016s sid=0cc0fbf1-634a-4a32-b636-eca64ee858d4
+[METRIC] latency=0.0014s sid=0cc0fbf1-634a-4a32-b636-eca64ee858d4
+[METRIC] latency=0.0015s sid=0cc0fbf1-634a-4a32-b636-eca64ee858d4
+[METRIC] latency=0.0014s sid=0cc0fbf1-634a-4a32-b636-eca64ee858d4
+[METRIC] latency=0.0015s sid=0cc0fbf1-634a-4a32-b636-eca64ee858d4
+[METRIC] latency=0.0015s sid=0cc0fbf1-634a-4a32-b636-eca64ee858d4
+[METRIC] latency=0.0016s sid=0cc0fbf1-634a-4a32-b636-eca64ee858d4
+[METRIC] latency=0.0013s sid=0cc0fbf1-634a-4a32-b636-eca64ee858d4
+[METRIC] latency=0.0014s sid=0cc0fbf1-634a-4a32-b636-eca64ee858d4
+[METRIC] latency=0.0016s sid=0cc0fbf1-634a-4a32-b636-eca64ee858d4
+[METRIC] latency=0.0018s sid=5688e07c-f021-4a69-aa9f-be72e680e29d
+[METRIC] latency=0.0019s sid=5688e07c-f021-4a69-aa9f-be72e680e29d
+[METRIC] latency=0.0016s sid=5688e07c-f021-4a69-aa9f-be72e680e29d
+[METRIC] latency=0.0016s sid=5688e07c-f021-4a69-aa9f-be72e680e29d
+[METRIC] latency=0.0017s sid=5688e07c-f021-4a69-aa9f-be72e680e29d
+[METRIC] latency=0.0015s sid=5688e07c-f021-4a69-aa9f-be72e680e29d
+[METRIC] latency=0.0017s sid=5688e07c-f021-4a69-aa9f-be72e680e29d
+[METRIC] latency=0.0019s sid=5688e07c-f021-4a69-aa9f-be72e680e29d
+[METRIC] latency=0.0019s sid=5688e07c-f021-4a69-aa9f-be72e680e29d
+[METRIC] latency=0.0016s sid=5688e07c-f021-4a69-aa9f-be72e680e29d
+[METRIC] latency=0.0017s sid=5688e07c-f021-4a69-aa9f-be72e680e29d
+[METRIC] latency=0.0072s sid=068696a7-bc7e-4556-885f-7ea48ddc0cbe
+[METRIC] latency=0.0020s sid=068696a7-bc7e-4556-885f-7ea48ddc0cbe
+[METRIC] latency=0.0017s sid=068696a7-bc7e-4556-885f-7ea48ddc0cbe
+[METRIC] latency=0.0019s sid=068696a7-bc7e-4556-885f-7ea48ddc0cbe
+[METRIC] latency=0.0016s sid=068696a7-bc7e-4556-885f-7ea48ddc0cbe
+[METRIC] latency=0.0020s sid=068696a7-bc7e-4556-885f-7ea48ddc0cbe
+[METRIC] latency=0.0020s sid=068696a7-bc7e-4556-885f-7ea48ddc0cbe
+[METRIC] latency=0.0020s sid=068696a7-bc7e-4556-885f-7ea48ddc0cbe
+[METRIC] latency=0.0020s sid=068696a7-bc7e-4556-885f-7ea48ddc0cbe
+[METRIC] latency=0.0021s sid=068696a7-bc7e-4556-885f-7ea48ddc0cbe
+[METRIC] latency=0.0020s sid=068696a7-bc7e-4556-885f-7ea48ddc0cbe
+[METRIC] latency=0.0027s sid=5b41ac3e-1c02-4894-8d54-4f7b8b24d2ec
+[METRIC] latency=0.0023s sid=5b41ac3e-1c02-4894-8d54-4f7b8b24d2ec
+[METRIC] latency=0.0036s sid=5b41ac3e-1c02-4894-8d54-4f7b8b24d2ec
+[METRIC] latency=0.0025s sid=5b41ac3e-1c02-4894-8d54-4f7b8b24d2ec
+[METRIC] latency=0.0046s sid=d4ed99f4-85a8-4630-b0bd-82e1d458a947
+[METRIC] latency=0.0028s sid=d4ed99f4-85a8-4630-b0bd-82e1d458a947
+[METRIC] latency=0.0023s sid=d4ed99f4-85a8-4630-b0bd-82e1d458a947
+[METRIC] latency=0.0025s sid=d4ed99f4-85a8-4630-b0bd-82e1d458a947
+[METRIC] latency=0.0023s sid=d4ed99f4-85a8-4630-b0bd-82e1d458a947
+[METRIC] latency=0.0053s sid=e8f92f03-45f1-40fb-99e8-e2a43bfa96f8
+[METRIC] latency=0.0029s sid=e8f92f03-45f1-40fb-99e8-e2a43bfa96f8
+[METRIC] latency=0.0031s sid=e8f92f03-45f1-40fb-99e8-e2a43bfa96f8
+[METRIC] latency=0.0022s sid=e8f92f03-45f1-40fb-99e8-e2a43bfa96f8
+[METRIC] latency=0.0017s sid=e8f92f03-45f1-40fb-99e8-e2a43bfa96f8
+[METRIC] latency=0.0014s sid=e8f92f03-45f1-40fb-99e8-e2a43bfa96f8
+[METRIC] latency=0.0019s sid=ddc5f09e-4bd7-42e1-bbed-92772010eb0e
+[METRIC] latency=0.0016s sid=ddc5f09e-4bd7-42e1-bbed-92772010eb0e
+[METRIC] latency=0.0017s sid=ddc5f09e-4bd7-42e1-bbed-92772010eb0e
+[METRIC] latency=0.0017s sid=ddc5f09e-4bd7-42e1-bbed-92772010eb0e
+[METRIC] latency=0.0017s sid=ddc5f09e-4bd7-42e1-bbed-92772010eb0e
+[METRIC] latency=0.0022s sid=3c17905b-c722-472c-9e85-3ab51a5acdca
+[METRIC] latency=0.0020s sid=3c17905b-c722-472c-9e85-3ab51a5acdca
+[METRIC] latency=0.0019s sid=3c17905b-c722-472c-9e85-3ab51a5acdca
+[METRIC] latency=0.0021s sid=3c17905b-c722-472c-9e85-3ab51a5acdca
+[METRIC] latency=0.0021s sid=3c17905b-c722-472c-9e85-3ab51a5acdca
+[METRIC] latency=0.0020s sid=3c17905b-c722-472c-9e85-3ab51a5acdca
+[METRIC] latency=0.0048s sid=8f1fe633-e43d-4057-b7e2-c1eb47a4b240
+[METRIC] latency=0.0023s sid=8f1fe633-e43d-4057-b7e2-c1eb47a4b240
+[METRIC] latency=0.0022s sid=8f1fe633-e43d-4057-b7e2-c1eb47a4b240
+[METRIC] latency=0.0020s sid=8f1fe633-e43d-4057-b7e2-c1eb47a4b240
+[METRIC] latency=0.0022s sid=8f1fe633-e43d-4057-b7e2-c1eb47a4b240
+[METRIC] latency=0.0022s sid=8f1fe633-e43d-4057-b7e2-c1eb47a4b240
+[METRIC] latency=0.0020s sid=8f1fe633-e43d-4057-b7e2-c1eb47a4b240
+[METRIC] latency=0.0026s sid=ac1b7460-a42a-4457-985a-3e00cf08b2a6
+[METRIC] latency=0.0025s sid=ac1b7460-a42a-4457-985a-3e00cf08b2a6
+[METRIC] latency=0.0025s sid=ac1b7460-a42a-4457-985a-3e00cf08b2a6
+[METRIC] latency=0.0030s sid=ac1b7460-a42a-4457-985a-3e00cf08b2a6
+[METRIC] latency=0.0022s sid=ac1b7460-a42a-4457-985a-3e00cf08b2a6127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:33] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:34] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+
+[METRIC] latency=0.0045s sid=c0d15b92-2277-44cd-aa32-8c87ab5e0a9b
+[METRIC] latency=0.0026s sid=c0d15b92-2277-44cd-aa32-8c87ab5e0a9b
+[METRIC] latency=0.0023s sid=c0d15b92-2277-44cd-aa32-8c87ab5e0a9b
+[METRIC] latency=0.0025s sid=c0d15b92-2277-44cd-aa32-8c87ab5e0a9b
+[METRIC] latency=0.0022s sid=c0d15b92-2277-44cd-aa32-8c87ab5e0a9b
+[METRIC] latency=0.0022s sid=c0d15b92-2277-44cd-aa32-8c87ab5e0a9b
+[METRIC] latency=0.0024s sid=c0d15b92-2277-44cd-aa32-8c87ab5e0a9b
+[METRIC] latency=0.0022s sid=c0d15b92-2277-44cd-aa32-8c87ab5e0a9b
+[METRIC] latency=0.0021s sid=c0d15b92-2277-44cd-aa32-8c87ab5e0a9b
+[METRIC] latency=0.0016s sid=c0d15b92-2277-44cd-aa32-8c87ab5e0a9b
+[METRIC] latency=0.0015s sid=c0d15b92-2277-44cd-aa32-8c87ab5e0a9b
+[METRIC] latency=0.0018s sid=c0d15b92-2277-44cd-aa32-8c87ab5e0a9b
+[METRIC] latency=0.0029s sid=404e60aa-5283-4969-871c-b9f370082cb1
+[METRIC] latency=0.0018s sid=404e60aa-5283-4969-871c-b9f370082cb1
+[METRIC] latency=0.0018s sid=404e60aa-5283-4969-871c-b9f370082cb1
+[METRIC] latency=0.0020s sid=404e60aa-5283-4969-871c-b9f370082cb1
+[METRIC] latency=0.0019s sid=404e60aa-5283-4969-871c-b9f370082cb1
+[METRIC] latency=0.0019s sid=404e60aa-5283-4969-871c-b9f370082cb1
+[METRIC] latency=0.0019s sid=404e60aa-5283-4969-871c-b9f370082cb1
+[METRIC] latency=0.0027s sid=b69ac3d1-b6de-4399-8943-7e27cf34fa9f
+[METRIC] latency=0.0026s sid=b69ac3d1-b6de-4399-8943-7e27cf34fa9f
+[METRIC] latency=0.0025s sid=b69ac3d1-b6de-4399-8943-7e27cf34fa9f
+[METRIC] latency=0.0024s sid=b69ac3d1-b6de-4399-8943-7e27cf34fa9f
+[METRIC] latency=0.0024s sid=b69ac3d1-b6de-4399-8943-7e27cf34fa9f
+[METRIC] latency=0.0016s sid=b69ac3d1-b6de-4399-8943-7e27cf34fa9f
+[METRIC] latency=0.0013s sid=b69ac3d1-b6de-4399-8943-7e27cf34fa9f
+[METRIC] latency=0.0015s sid=b69ac3d1-b6de-4399-8943-7e27cf34fa9f
+[METRIC] latency=0.0016s sid=7d034f41-5bfc-43b9-927f-a3b39d031fee
+[METRIC] latency=0.0014s sid=7d034f41-5bfc-43b9-927f-a3b39d031fee
+[METRIC] latency=0.0016s sid=7d034f41-5bfc-43b9-927f-a3b39d031fee
+[METRIC] latency=0.0021s sid=7d034f41-5bfc-43b9-927f-a3b39d031fee
+[METRIC] latency=0.0017s sid=7d034f41-5bfc-43b9-927f-a3b39d031fee
+[METRIC] latency=0.0021s sid=1409b35b-be7d-4587-89b5-c31b096c58dc
+[METRIC] latency=0.0017s sid=1409b35b-be7d-4587-89b5-c31b096c58dc
+[METRIC] latency=0.0019s sid=1409b35b-be7d-4587-89b5-c31b096c58dc
+[METRIC] latency=0.0019s sid=1409b35b-be7d-4587-89b5-c31b096c58dc
+[METRIC] latency=0.0019s sid=1409b35b-be7d-4587-89b5-c31b096c58dc
+[METRIC] latency=0.0022s sid=1409b35b-be7d-4587-89b5-c31b096c58dc
+[METRIC] latency=0.0027s sid=bb23bc27-a4e9-4b8c-ba6d-debb09f27544
+[METRIC] latency=0.0023s sid=bb23bc27-a4e9-4b8c-ba6d-debb09f27544
+[METRIC] latency=0.0022s sid=bb23bc27-a4e9-4b8c-ba6d-debb09f27544
+[METRIC] latency=0.0020s sid=bb23bc27-a4e9-4b8c-ba6d-debb09f27544
+[METRIC] latency=0.0021s sid=bb23bc27-a4e9-4b8c-ba6d-debb09f27544
+[METRIC] latency=0.0023s sid=bb23bc27-a4e9-4b8c-ba6d-debb09f27544
+[METRIC] latency=0.0021s sid=bb23bc27-a4e9-4b8c-ba6d-debb09f27544
+[METRIC] latency=0.0022s sid=bb23bc27-a4e9-4b8c-ba6d-debb09f27544
+[METRIC] latency=0.0045s sid=6be89567-cc48-461c-a5b7-a240d75bbc27
+[METRIC] latency=0.0024s sid=6be89567-cc48-461c-a5b7-a240d75bbc27
+[METRIC] latency=0.0020s sid=6be89567-cc48-461c-a5b7-a240d75bbc27
+[METRIC] latency=0.0017s sid=6be89567-cc48-461c-a5b7-a240d75bbc27
+[METRIC] latency=0.0015s sid=6be89567-cc48-461c-a5b7-a240d75bbc27
+[METRIC] latency=0.0015s sid=6be89567-cc48-461c-a5b7-a240d75bbc27
+[METRIC] latency=0.0021s sid=e91fe66b-269d-436b-97af-1a03d989de79
+[METRIC] latency=0.0017s sid=e91fe66b-269d-436b-97af-1a03d989de79
+[METRIC] latency=0.0017s sid=e91fe66b-269d-436b-97af-1a03d989de79
+[METRIC] latency=0.0018s sid=e91fe66b-269d-436b-97af-1a03d989de79
+[METRIC] latency=0.0017s sid=e91fe66b-269d-436b-97af-1a03d989de79
+[METRIC] latency=0.0016s sid=e91fe66b-269d-436b-97af-1a03d989de79
+[METRIC] latency=0.0015s sid=e91fe66b-269d-436b-97af-1a03d989de79
+[METRIC] latency=0.0019s sid=3347adb5-b071-4f0b-9730-b8536c1949e9
+[METRIC] latency=0.0016s sid=3347adb5-b071-4f0b-9730-b8536c1949e9
+[METRIC] latency=0.0017s sid=3347adb5-b071-4f0b-9730-b8536c1949e9
+[METRIC] latency=0.0018s sid=3347adb5-b071-4f0b-9730-b8536c1949e9
+[METRIC] latency=0.0020s sid=3347adb5-b071-4f0b-9730-b8536c1949e9
+[METRIC] latency=0.0020s sid=3347adb5-b071-4f0b-9730-b8536c1949e9
+[METRIC] latency=0.0020s sid=3347adb5-b071-4f0b-9730-b8536c1949e9
+[METRIC] latency=0.0019s sid=3347adb5-b071-4f0b-9730-b8536c1949e9
+[METRIC] latency=0.0020s sid=3347adb5-b071-4f0b-9730-b8536c1949e9
+[METRIC] latency=0.0022s sid=6b58953a-5b24-403b-8028-b1ebbfe743e9
+[METRIC] latency=0.0021s sid=6b58953a-5b24-403b-8028-b1ebbfe743e9
+[METRIC] latency=0.0021s sid=6b58953a-5b24-403b-8028-b1ebbfe743e9
+[METRIC] latency=0.0020s sid=6b58953a-5b24-403b-8028-b1ebbfe743e9
+[METRIC] latency=0.0021s sid=6b58953a-5b24-403b-8028-b1ebbfe743e9
+[METRIC] latency=0.0030s sid=6b58953a-5b24-403b-8028-b1ebbfe743e9
+[METRIC] latency=0.0037s sid=55bc19bf-ccc2-4ccd-aa2a-a1bf51646c9e
+[METRIC] latency=0.0026s sid=55bc19bf-ccc2-4ccd-aa2a-a1bf51646c9e
+[METRIC] latency=0.0027s sid=55bc19bf-ccc2-4ccd-aa2a-a1bf51646c9e
+[METRIC] latency=0.0027s sid=55bc19bf-ccc2-4ccd-aa2a-a1bf51646c9e
+[METRIC] latency=0.0034s sid=55bc19bf-ccc2-4ccd-aa2a-a1bf51646c9e
+[METRIC] latency=0.0030s sid=1306ddfc-412b-488d-b8ea-ce797fa452c8
+[METRIC] latency=0.0022s sid=1306ddfc-412b-488d-b8ea-ce797fa452c8
+[METRIC] latency=0.0020s sid=1306ddfc-412b-488d-b8ea-ce797fa452c8
+[METRIC] latency=0.0016s sid=1306ddfc-412b-488d-b8ea-ce797fa452c8
+[METRIC] latency=0.0018s sid=1306ddfc-412b-488d-b8ea-ce797fa452c8
+[METRIC] latency=0.0019s sid=1306ddfc-412b-488d-b8ea-ce797fa452c8
+[METRIC] latency=0.0018s sid=1306ddfc-412b-488d-b8ea-ce797fa452c8
+[METRIC] latency=0.0025s sid=828a433c-0bb8-4f8f-94ec-ad44905b70f4
+[METRIC] latency=0.0021s sid=828a433c-0bb8-4f8f-94ec-ad44905b70f4
+[METRIC] latency=0.0019s sid=828a433c-0bb8-4f8f-94ec-ad44905b70f4
+[METRIC] latency=0.0019s sid=828a433c-0bb8-4f8f-94ec-ad44905b70f4
+[METRIC] latency=0.0021s sid=828a433c-0bb8-4f8f-94ec-ad44905b70f4
+[METRIC] latency=0.0022s sid=828a433c-0bb8-4f8f-94ec-ad44905b70f4
+[METRIC] latency=0.0025s sid=828a433c-0bb8-4f8f-94ec-ad44905b70f4
+[METRIC] latency=0.0024s sid=828a433c-0bb8-4f8f-94ec-ad44905b70f4
+[METRIC] latency=0.0051s sid=69ef789d-344d-454b-86fb-31a66af49337
+[METRIC] latency=0.0029s sid=69ef789d-344d-454b-86fb-31a66af49337
+[METRIC] latency=0.0035s sid=69ef789d-344d-454b-86fb-31a66af49337
+[METRIC] latency=0.0024s sid=69ef789d-344d-454b-86fb-31a66af49337
+[METRIC] latency=0.0019s sid=69ef789d-344d-454b-86fb-31a66af49337
+[METRIC] latency=0.0022s sid=69ef789d-344d-454b-86fb-31a66af49337
+[METRIC] latency=0.0022s sid=69ef789d-344d-454b-86fb-31a66af49337
+[METRIC] latency=0.0022s sid=69ef789d-344d-454b-86fb-31a66af49337
+[METRIC] latency=0.0026s sid=69ef789d-344d-454b-86fb-31a66af49337
+[METRIC] latency=0.0023s sid=69ef789d-344d-454b-86fb-31a66af49337
+[METRIC] latency=0.0046s sid=8ed6b41d-03d6-4106-a404-076eb0e3bdf7
+[METRIC] latency=0.0028s sid=8ed6b41d-03d6-4106-a404-076eb0e3bdf7
+[METRIC] latency=0.0021s sid=8ed6b41d-03d6-4106-a404-076eb0e3bdf7
+[METRIC] latency=0.0023s sid=8ed6b41d-03d6-4106-a404-076eb0e3bdf7
+[METRIC] latency=0.0022s sid=8ed6b41d-03d6-4106-a404-076eb0e3bdf7
+[METRIC] latency=0.0023s sid=8ed6b41d-03d6-4106-a404-076eb0e3bdf7
+[METRIC] latency=0.0023s sid=8ed6b41d-03d6-4106-a404-076eb0e3bdf7
+[METRIC] latency=0.0021s sid=8ed6b41d-03d6-4106-a404-076eb0e3bdf7
+[METRIC] latency=0.0023s sid=8ed6b41d-03d6-4106-a404-076eb0e3bdf7
+[METRIC] latency=0.0057s sid=03df4108-3a17-4a1e-8c63-a73cd9ff5ae5
+[METRIC] latency=0.0033s sid=03df4108-3a17-4a1e-8c63-a73cd9ff5ae5
+[METRIC] latency=0.0027s sid=03df4108-3a17-4a1e-8c63-a73cd9ff5ae5
+[METRIC] latency=0.0024s sid=03df4108-3a17-4a1e-8c63-a73cd9ff5ae5
+[METRIC] latency=0.0023s sid=03df4108-3a17-4a1e-8c63-a73cd9ff5ae5
+[METRIC] latency=0.0024s sid=03df4108-3a17-4a1e-8c63-a73cd9ff5ae5
+[METRIC] latency=0.0022s sid=03df4108-3a17-4a1e-8c63-a73cd9ff5ae5
+[METRIC] latency=0.0024s sid=03df4108-3a17-4a1e-8c63-a73cd9ff5ae5
+[METRIC] latency=0.0022s sid=03df4108-3a17-4a1e-8c63-a73cd9ff5ae5
+[METRIC] latency=0.0026s sid=d37ef52e-8520-4ca3-b469-9953a8f4e348
+[METRIC] latency=0.0018s sid=d37ef52e-8520-4ca3-b469-9953a8f4e348
+[METRIC] latency=0.0018s sid=d37ef52e-8520-4ca3-b469-9953a8f4e348127.0.0.1 - - [05/Dec/2025 17:11:35] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:35] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:36] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /profile?user=anushka HTTP/1.1" 200 -
+
+[METRIC] latency=0.0017s sid=d37ef52e-8520-4ca3-b469-9953a8f4e348
+[METRIC] latency=0.0017s sid=d37ef52e-8520-4ca3-b469-9953a8f4e348
+[METRIC] latency=0.0017s sid=d37ef52e-8520-4ca3-b469-9953a8f4e348
+[METRIC] latency=0.0018s sid=d37ef52e-8520-4ca3-b469-9953a8f4e348
+[METRIC] latency=0.0021s sid=464b60cd-462e-42e4-ab42-1893c65b391d
+[METRIC] latency=0.0020s sid=464b60cd-462e-42e4-ab42-1893c65b391d
+[METRIC] latency=0.0020s sid=464b60cd-462e-42e4-ab42-1893c65b391d
+[METRIC] latency=0.0020s sid=464b60cd-462e-42e4-ab42-1893c65b391d
+[METRIC] latency=0.0019s sid=464b60cd-462e-42e4-ab42-1893c65b391d
+[METRIC] latency=0.0027s sid=464b60cd-462e-42e4-ab42-1893c65b391d
+[METRIC] latency=0.0020s sid=464b60cd-462e-42e4-ab42-1893c65b391d
+[METRIC] latency=0.0018s sid=464b60cd-462e-42e4-ab42-1893c65b391d
+[METRIC] latency=0.0020s sid=464b60cd-462e-42e4-ab42-1893c65b391d
+[METRIC] latency=0.0020s sid=464b60cd-462e-42e4-ab42-1893c65b391d
+[METRIC] latency=0.0023s sid=50a34432-3885-45dd-8806-daa895f915ca
+[METRIC] latency=0.0021s sid=50a34432-3885-45dd-8806-daa895f915ca
+[METRIC] latency=0.0025s sid=50a34432-3885-45dd-8806-daa895f915ca
+[METRIC] latency=0.0021s sid=50a34432-3885-45dd-8806-daa895f915ca
+[METRIC] latency=0.0052s sid=3df34bab-1c41-4b21-ba35-77a8f43e1cbb
+[METRIC] latency=0.0027s sid=3df34bab-1c41-4b21-ba35-77a8f43e1cbb
+[METRIC] latency=0.0025s sid=3df34bab-1c41-4b21-ba35-77a8f43e1cbb
+[METRIC] latency=0.0026s sid=3df34bab-1c41-4b21-ba35-77a8f43e1cbb
+[METRIC] latency=0.0024s sid=3df34bab-1c41-4b21-ba35-77a8f43e1cbb
+[METRIC] latency=0.0021s sid=3df34bab-1c41-4b21-ba35-77a8f43e1cbb
+[METRIC] latency=0.0028s sid=42fc7f2f-bfd8-4332-86d1-cf79cee06157
+[METRIC] latency=0.0021s sid=42fc7f2f-bfd8-4332-86d1-cf79cee06157
+[METRIC] latency=0.0021s sid=42fc7f2f-bfd8-4332-86d1-cf79cee06157
+[METRIC] latency=0.0022s sid=42fc7f2f-bfd8-4332-86d1-cf79cee06157
+[METRIC] latency=0.0022s sid=42fc7f2f-bfd8-4332-86d1-cf79cee06157
+[METRIC] latency=0.0022s sid=42fc7f2f-bfd8-4332-86d1-cf79cee06157
+[METRIC] latency=0.0014s sid=42fc7f2f-bfd8-4332-86d1-cf79cee06157
+[METRIC] latency=0.0015s sid=42fc7f2f-bfd8-4332-86d1-cf79cee06157
+[METRIC] latency=0.0015s sid=42fc7f2f-bfd8-4332-86d1-cf79cee06157
+[METRIC] latency=0.0024s sid=f8f8a2da-ca29-4a5f-9237-bc7eee5430f1
+[METRIC] latency=0.0021s sid=f8f8a2da-ca29-4a5f-9237-bc7eee5430f1
+[METRIC] latency=0.0023s sid=f8f8a2da-ca29-4a5f-9237-bc7eee5430f1
+[METRIC] latency=0.0022s sid=f8f8a2da-ca29-4a5f-9237-bc7eee5430f1
+[METRIC] latency=0.0031s sid=f8f8a2da-ca29-4a5f-9237-bc7eee5430f1
+[METRIC] latency=0.0023s sid=f8f8a2da-ca29-4a5f-9237-bc7eee5430f1
+[METRIC] latency=0.0022s sid=f8f8a2da-ca29-4a5f-9237-bc7eee5430f1
+[METRIC] latency=0.0047s sid=41b2182e-de14-4ff7-97c6-ccbacac86a85
+[METRIC] latency=0.0025s sid=41b2182e-de14-4ff7-97c6-ccbacac86a85
+[METRIC] latency=0.0025s sid=41b2182e-de14-4ff7-97c6-ccbacac86a85
+[METRIC] latency=0.0024s sid=41b2182e-de14-4ff7-97c6-ccbacac86a85
+[METRIC] latency=0.0026s sid=41b2182e-de14-4ff7-97c6-ccbacac86a85
+[METRIC] latency=0.0026s sid=41b2182e-de14-4ff7-97c6-ccbacac86a85
+[METRIC] latency=0.0025s sid=41b2182e-de14-4ff7-97c6-ccbacac86a85
+[METRIC] latency=0.0025s sid=41b2182e-de14-4ff7-97c6-ccbacac86a85
+[METRIC] latency=0.0022s sid=41b2182e-de14-4ff7-97c6-ccbacac86a85
+[METRIC] latency=0.0042s sid=120c3864-33be-4fd4-bbc9-188a0c513e88
+[METRIC] latency=0.0026s sid=120c3864-33be-4fd4-bbc9-188a0c513e88
+[METRIC] latency=0.0022s sid=120c3864-33be-4fd4-bbc9-188a0c513e88
+[METRIC] latency=0.0021s sid=120c3864-33be-4fd4-bbc9-188a0c513e88
+[METRIC] latency=0.0023s sid=120c3864-33be-4fd4-bbc9-188a0c513e88
+[METRIC] latency=0.0022s sid=120c3864-33be-4fd4-bbc9-188a0c513e88
+[METRIC] latency=0.0022s sid=120c3864-33be-4fd4-bbc9-188a0c513e88
+[METRIC] latency=0.0053s sid=7dbb2c6f-fcab-4856-8599-1d26cb4e3894
+[METRIC] latency=0.0027s sid=7dbb2c6f-fcab-4856-8599-1d26cb4e3894
+[METRIC] latency=0.0022s sid=7dbb2c6f-fcab-4856-8599-1d26cb4e3894
+[METRIC] latency=0.0021s sid=7dbb2c6f-fcab-4856-8599-1d26cb4e3894
+[METRIC] latency=0.0022s sid=7dbb2c6f-fcab-4856-8599-1d26cb4e3894
+[METRIC] latency=0.0023s sid=7dbb2c6f-fcab-4856-8599-1d26cb4e3894
+[METRIC] latency=0.0021s sid=7dbb2c6f-fcab-4856-8599-1d26cb4e3894
+[METRIC] latency=0.0024s sid=7dbb2c6f-fcab-4856-8599-1d26cb4e3894
+[METRIC] latency=0.0029s sid=7dbb2c6f-fcab-4856-8599-1d26cb4e3894
+[METRIC] latency=0.0018s sid=44434022-f5d4-454f-a40a-8e49c6fdd492
+[METRIC] latency=0.0013s sid=44434022-f5d4-454f-a40a-8e49c6fdd492
+[METRIC] latency=0.0015s sid=44434022-f5d4-454f-a40a-8e49c6fdd492
+[METRIC] latency=0.0015s sid=44434022-f5d4-454f-a40a-8e49c6fdd492
+[METRIC] latency=0.0016s sid=44434022-f5d4-454f-a40a-8e49c6fdd492
+[METRIC] latency=0.0012s sid=44434022-f5d4-454f-a40a-8e49c6fdd492
+[METRIC] latency=0.0015s sid=44434022-f5d4-454f-a40a-8e49c6fdd492
+[METRIC] latency=0.0013s sid=44434022-f5d4-454f-a40a-8e49c6fdd492
+[METRIC] latency=0.0016s sid=9bdb7daf-f452-48ba-808b-0aa26fe51f30
+[METRIC] latency=0.0014s sid=9bdb7daf-f452-48ba-808b-0aa26fe51f30
+[METRIC] latency=0.0014s sid=9bdb7daf-f452-48ba-808b-0aa26fe51f30
+[METRIC] latency=0.0014s sid=9bdb7daf-f452-48ba-808b-0aa26fe51f30
+[METRIC] latency=0.0015s sid=9bdb7daf-f452-48ba-808b-0aa26fe51f30
+[METRIC] latency=0.0017s sid=9bdb7daf-f452-48ba-808b-0aa26fe51f30
+[METRIC] latency=0.0017s sid=9bdb7daf-f452-48ba-808b-0aa26fe51f30
+[METRIC] latency=0.0023s sid=4c5f50c8-3519-49d1-a5dc-a93ef81a1c34
+[METRIC] latency=0.0017s sid=4c5f50c8-3519-49d1-a5dc-a93ef81a1c34
+[METRIC] latency=0.0018s sid=4c5f50c8-3519-49d1-a5dc-a93ef81a1c34
+[METRIC] latency=0.0021s sid=4c5f50c8-3519-49d1-a5dc-a93ef81a1c34
+[METRIC] latency=0.0020s sid=4c5f50c8-3519-49d1-a5dc-a93ef81a1c34
+[METRIC] latency=0.0019s sid=4c5f50c8-3519-49d1-a5dc-a93ef81a1c34
+[METRIC] latency=0.0018s sid=4c5f50c8-3519-49d1-a5dc-a93ef81a1c34
+[METRIC] latency=0.0024s sid=616ff662-c9c0-47ba-810f-1c048abf1395
+[METRIC] latency=0.0022s sid=616ff662-c9c0-47ba-810f-1c048abf1395
+[METRIC] latency=0.0024s sid=616ff662-c9c0-47ba-810f-1c048abf1395
+[METRIC] latency=0.0026s sid=616ff662-c9c0-47ba-810f-1c048abf1395
+[METRIC] latency=0.0039s sid=50a04c9f-f643-4cd6-ab34-9c69de713472
+[METRIC] latency=0.0027s sid=50a04c9f-f643-4cd6-ab34-9c69de713472
+[METRIC] latency=0.0024s sid=50a04c9f-f643-4cd6-ab34-9c69de713472
+[METRIC] latency=0.0022s sid=50a04c9f-f643-4cd6-ab34-9c69de713472
+[METRIC] latency=0.0033s sid=50a04c9f-f643-4cd6-ab34-9c69de713472
+[METRIC] latency=0.0022s sid=50a04c9f-f643-4cd6-ab34-9c69de713472
+[METRIC] latency=0.0022s sid=b9201b7f-b62e-412d-a4e5-4a2157f15bd7
+[METRIC] latency=0.0016s sid=b9201b7f-b62e-412d-a4e5-4a2157f15bd7
+[METRIC] latency=0.0015s sid=b9201b7f-b62e-412d-a4e5-4a2157f15bd7
+[METRIC] latency=0.0015s sid=b9201b7f-b62e-412d-a4e5-4a2157f15bd7
+[METRIC] latency=0.0015s sid=b9201b7f-b62e-412d-a4e5-4a2157f15bd7
+[METRIC] latency=0.0015s sid=b9201b7f-b62e-412d-a4e5-4a2157f15bd7
+[METRIC] latency=0.0020s sid=b9201b7f-b62e-412d-a4e5-4a2157f15bd7
+[METRIC] latency=0.0015s sid=b9201b7f-b62e-412d-a4e5-4a2157f15bd7
+[METRIC] latency=0.0014s sid=b9201b7f-b62e-412d-a4e5-4a2157f15bd7
+[METRIC] latency=0.0015s sid=b9201b7f-b62e-412d-a4e5-4a2157f15bd7
+[METRIC] latency=0.0014s sid=b9201b7f-b62e-412d-a4e5-4a2157f15bd7
+[METRIC] latency=0.0017s sid=ff591dda-2e03-4613-ac98-0bcbddfdec13
+[METRIC] latency=0.0016s sid=ff591dda-2e03-4613-ac98-0bcbddfdec13
+[METRIC] latency=0.0015s sid=ff591dda-2e03-4613-ac98-0bcbddfdec13
+[METRIC] latency=0.0015s sid=ff591dda-2e03-4613-ac98-0bcbddfdec13
+[METRIC] latency=0.0016s sid=ff591dda-2e03-4613-ac98-0bcbddfdec13
+[METRIC] latency=0.0017s sid=ff591dda-2e03-4613-ac98-0bcbddfdec13
+[METRIC] latency=0.0016s sid=ff591dda-2e03-4613-ac98-0bcbddfdec13
+[METRIC] latency=0.0018s sid=ff591dda-2e03-4613-ac98-0bcbddfdec13
+[METRIC] latency=0.0015s sid=ff591dda-2e03-4613-ac98-0bcbddfdec13
+[METRIC] latency=0.0017s sid=ff591dda-2e03-4613-ac98-0bcbddfdec13
+[METRIC] latency=0.0022s sid=5f153cfa-3a25-4b3a-8e8b-e2ebebd6d352
+[METRIC] latency=0.0018s sid=5f153cfa-3a25-4b3a-8e8b-e2ebebd6d352
+[METRIC] latency=0.0024s sid=5f153cfa-3a25-4b3a-8e8b-e2ebebd6d352
+[METRIC] latency=0.0022s sid=5f153cfa-3a25-4b3a-8e8b-e2ebebd6d352
+[METRIC] latency=0.0043s sid=bd5ff0ae-c6b6-4082-bd81-d9d12c3e724f
+[METRIC] latency=0.0025s sid=bd5ff0ae-c6b6-4082-bd81-d9d12c3e724f
+[METRIC] latency=0.0022s sid=bd5ff0ae-c6b6-4082-bd81-d9d12c3e724f127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:37] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:38] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+
+[METRIC] latency=0.0023s sid=bd5ff0ae-c6b6-4082-bd81-d9d12c3e724f
+[METRIC] latency=0.0023s sid=bd5ff0ae-c6b6-4082-bd81-d9d12c3e724f
+[METRIC] latency=0.0023s sid=bd5ff0ae-c6b6-4082-bd81-d9d12c3e724f
+[METRIC] latency=0.0025s sid=bd5ff0ae-c6b6-4082-bd81-d9d12c3e724f
+[METRIC] latency=0.0021s sid=bd5ff0ae-c6b6-4082-bd81-d9d12c3e724f
+[METRIC] latency=0.0047s sid=edf0647f-8636-4cbe-a5de-ecdb23a12442
+[METRIC] latency=0.0025s sid=edf0647f-8636-4cbe-a5de-ecdb23a12442
+[METRIC] latency=0.0023s sid=edf0647f-8636-4cbe-a5de-ecdb23a12442
+[METRIC] latency=0.0027s sid=edf0647f-8636-4cbe-a5de-ecdb23a12442
+[METRIC] latency=0.0025s sid=edf0647f-8636-4cbe-a5de-ecdb23a12442
+[METRIC] latency=0.0025s sid=edf0647f-8636-4cbe-a5de-ecdb23a12442
+[METRIC] latency=0.0056s sid=3f921128-9fcb-452f-9405-d5f004329630
+[METRIC] latency=0.0040s sid=3f921128-9fcb-452f-9405-d5f004329630
+[METRIC] latency=0.0029s sid=3f921128-9fcb-452f-9405-d5f004329630
+[METRIC] latency=0.0031s sid=3f921128-9fcb-452f-9405-d5f004329630
+[METRIC] latency=0.0024s sid=3f921128-9fcb-452f-9405-d5f004329630
+[METRIC] latency=0.0025s sid=ffd0c32e-b18c-410c-9455-7c389ea06d6d
+[METRIC] latency=0.0019s sid=ffd0c32e-b18c-410c-9455-7c389ea06d6d
+[METRIC] latency=0.0018s sid=ffd0c32e-b18c-410c-9455-7c389ea06d6d
+[METRIC] latency=0.0019s sid=ffd0c32e-b18c-410c-9455-7c389ea06d6d
+[METRIC] latency=0.0028s sid=4116056b-8b72-430a-a8c6-5e59ab75af3e
+[METRIC] latency=0.0024s sid=4116056b-8b72-430a-a8c6-5e59ab75af3e
+[METRIC] latency=0.0027s sid=4116056b-8b72-430a-a8c6-5e59ab75af3e
+[METRIC] latency=0.0055s sid=9a1b7866-b3f9-4b3a-af56-9e6aff0c55f6
+[METRIC] latency=0.0032s sid=9a1b7866-b3f9-4b3a-af56-9e6aff0c55f6
+[METRIC] latency=0.0026s sid=9a1b7866-b3f9-4b3a-af56-9e6aff0c55f6
+[METRIC] latency=0.0025s sid=9a1b7866-b3f9-4b3a-af56-9e6aff0c55f6
+[METRIC] latency=0.0032s sid=9a1b7866-b3f9-4b3a-af56-9e6aff0c55f6
+[METRIC] latency=0.0026s sid=9a1b7866-b3f9-4b3a-af56-9e6aff0c55f6
+[METRIC] latency=0.0024s sid=9a1b7866-b3f9-4b3a-af56-9e6aff0c55f6
+[METRIC] latency=0.0024s sid=9a1b7866-b3f9-4b3a-af56-9e6aff0c55f6
+[METRIC] latency=0.0054s sid=26f9912d-7b75-419b-9ce1-320c6fcbd41f
+[METRIC] latency=0.0028s sid=26f9912d-7b75-419b-9ce1-320c6fcbd41f
+[METRIC] latency=0.0024s sid=26f9912d-7b75-419b-9ce1-320c6fcbd41f
+[METRIC] latency=0.0023s sid=26f9912d-7b75-419b-9ce1-320c6fcbd41f
+[METRIC] latency=0.0022s sid=26f9912d-7b75-419b-9ce1-320c6fcbd41f
+[METRIC] latency=0.0021s sid=26f9912d-7b75-419b-9ce1-320c6fcbd41f
+[METRIC] latency=0.0022s sid=26f9912d-7b75-419b-9ce1-320c6fcbd41f
+[METRIC] latency=0.0025s sid=26f9912d-7b75-419b-9ce1-320c6fcbd41f
+[METRIC] latency=0.0022s sid=26f9912d-7b75-419b-9ce1-320c6fcbd41f
+[METRIC] latency=0.0027s sid=26f9912d-7b75-419b-9ce1-320c6fcbd41f
+[METRIC] latency=0.0055s sid=f5d31df2-0b3e-4200-87fb-590f5ab9f7ee
+[METRIC] latency=0.0027s sid=f5d31df2-0b3e-4200-87fb-590f5ab9f7ee
+[METRIC] latency=0.0023s sid=f5d31df2-0b3e-4200-87fb-590f5ab9f7ee
+[METRIC] latency=0.0029s sid=f5d31df2-0b3e-4200-87fb-590f5ab9f7ee
+[METRIC] latency=0.0019s sid=f5d31df2-0b3e-4200-87fb-590f5ab9f7ee
+[METRIC] latency=0.0023s sid=13021d0e-6d0a-4bdf-b81c-6397269b18cb
+[METRIC] latency=0.0019s sid=13021d0e-6d0a-4bdf-b81c-6397269b18cb
+[METRIC] latency=0.0019s sid=13021d0e-6d0a-4bdf-b81c-6397269b18cb
+[METRIC] latency=0.0021s sid=13021d0e-6d0a-4bdf-b81c-6397269b18cb
+[METRIC] latency=0.0027s sid=799545ff-47e6-4f54-86ec-976c9aedd16f
+[METRIC] latency=0.0026s sid=799545ff-47e6-4f54-86ec-976c9aedd16f
+[METRIC] latency=0.0025s sid=799545ff-47e6-4f54-86ec-976c9aedd16f
+[METRIC] latency=0.0027s sid=799545ff-47e6-4f54-86ec-976c9aedd16f
+[METRIC] latency=0.0024s sid=799545ff-47e6-4f54-86ec-976c9aedd16f
+[METRIC] latency=0.0026s sid=799545ff-47e6-4f54-86ec-976c9aedd16f
+[METRIC] latency=0.0029s sid=799545ff-47e6-4f54-86ec-976c9aedd16f
+[METRIC] latency=0.0023s sid=799545ff-47e6-4f54-86ec-976c9aedd16f
+[METRIC] latency=0.0022s sid=799545ff-47e6-4f54-86ec-976c9aedd16f
+[METRIC] latency=0.0052s sid=b3ecb374-700b-4e84-a770-a3dffc2b27e1
+[METRIC] latency=0.0027s sid=b3ecb374-700b-4e84-a770-a3dffc2b27e1
+[METRIC] latency=0.0031s sid=b3ecb374-700b-4e84-a770-a3dffc2b27e1
+[METRIC] latency=0.0023s sid=b3ecb374-700b-4e84-a770-a3dffc2b27e1
+[METRIC] latency=0.0026s sid=b3ecb374-700b-4e84-a770-a3dffc2b27e1
+[METRIC] latency=0.0027s sid=b3ecb374-700b-4e84-a770-a3dffc2b27e1
+[METRIC] latency=0.0024s sid=b3ecb374-700b-4e84-a770-a3dffc2b27e1
+[METRIC] latency=0.0034s sid=b3ecb374-700b-4e84-a770-a3dffc2b27e1
+[METRIC] latency=0.0055s sid=8e7b3859-b47e-4969-839d-9961740b93d7
+[METRIC] latency=0.0028s sid=8e7b3859-b47e-4969-839d-9961740b93d7
+[METRIC] latency=0.0026s sid=8e7b3859-b47e-4969-839d-9961740b93d7
+[METRIC] latency=0.0022s sid=8e7b3859-b47e-4969-839d-9961740b93d7
+[METRIC] latency=0.0022s sid=8e7b3859-b47e-4969-839d-9961740b93d7
+[METRIC] latency=0.0022s sid=8e7b3859-b47e-4969-839d-9961740b93d7
+[METRIC] latency=0.0021s sid=8e7b3859-b47e-4969-839d-9961740b93d7
+[METRIC] latency=0.0021s sid=8e7b3859-b47e-4969-839d-9961740b93d7
+[METRIC] latency=0.0020s sid=8e7b3859-b47e-4969-839d-9961740b93d7
+[METRIC] latency=0.0035s sid=199e74ad-be0d-46da-b63c-3db2524c37c3
+[METRIC] latency=0.0024s sid=199e74ad-be0d-46da-b63c-3db2524c37c3
+[METRIC] latency=0.0027s sid=199e74ad-be0d-46da-b63c-3db2524c37c3
+[METRIC] latency=0.0026s sid=199e74ad-be0d-46da-b63c-3db2524c37c3
+[METRIC] latency=0.0024s sid=ca916d9b-affd-4282-a443-decc46d6c2cd
+[METRIC] latency=0.0020s sid=ca916d9b-affd-4282-a443-decc46d6c2cd
+[METRIC] latency=0.0018s sid=ca916d9b-affd-4282-a443-decc46d6c2cd
+[METRIC] latency=0.0020s sid=ca916d9b-affd-4282-a443-decc46d6c2cd
+[METRIC] latency=0.0020s sid=ca916d9b-affd-4282-a443-decc46d6c2cd
+[METRIC] latency=0.0019s sid=ca916d9b-affd-4282-a443-decc46d6c2cd
+[METRIC] latency=0.0021s sid=ca916d9b-affd-4282-a443-decc46d6c2cd
+[METRIC] latency=0.0024s sid=ca916d9b-affd-4282-a443-decc46d6c2cd
+[METRIC] latency=0.0020s sid=ca916d9b-affd-4282-a443-decc46d6c2cd
+[METRIC] latency=0.0028s sid=a20488bf-910c-423a-a7c2-b57b7ddafb0c
+[METRIC] latency=0.0024s sid=a20488bf-910c-423a-a7c2-b57b7ddafb0c
+[METRIC] latency=0.0022s sid=a20488bf-910c-423a-a7c2-b57b7ddafb0c
+[METRIC] latency=0.0024s sid=a20488bf-910c-423a-a7c2-b57b7ddafb0c
+[METRIC] latency=0.0022s sid=a20488bf-910c-423a-a7c2-b57b7ddafb0c
+[METRIC] latency=0.0024s sid=a20488bf-910c-423a-a7c2-b57b7ddafb0c
+[METRIC] latency=0.0029s sid=25a5c5ae-9276-4282-8c27-338c3e36c715
+[METRIC] latency=0.0021s sid=25a5c5ae-9276-4282-8c27-338c3e36c715
+[METRIC] latency=0.0023s sid=25a5c5ae-9276-4282-8c27-338c3e36c715
+[METRIC] latency=0.0022s sid=25a5c5ae-9276-4282-8c27-338c3e36c715
+[METRIC] latency=0.0020s sid=25a5c5ae-9276-4282-8c27-338c3e36c715
+[METRIC] latency=0.0020s sid=25a5c5ae-9276-4282-8c27-338c3e36c715
+[METRIC] latency=0.0028s sid=f187ff7f-1303-4066-aba7-a3097728c67f
+[METRIC] latency=0.0023s sid=f187ff7f-1303-4066-aba7-a3097728c67f
+[METRIC] latency=0.0023s sid=f187ff7f-1303-4066-aba7-a3097728c67f
+[METRIC] latency=0.0027s sid=f187ff7f-1303-4066-aba7-a3097728c67f
+[METRIC] latency=0.0024s sid=f187ff7f-1303-4066-aba7-a3097728c67f
+[METRIC] latency=0.0023s sid=f187ff7f-1303-4066-aba7-a3097728c67f
+[METRIC] latency=0.0026s sid=f187ff7f-1303-4066-aba7-a3097728c67f
+[METRIC] latency=0.0026s sid=f187ff7f-1303-4066-aba7-a3097728c67f
+[METRIC] latency=0.0022s sid=f187ff7f-1303-4066-aba7-a3097728c67f
+[METRIC] latency=0.0031s sid=f187ff7f-1303-4066-aba7-a3097728c67f
+[METRIC] latency=0.0021s sid=f187ff7f-1303-4066-aba7-a3097728c67f
+[METRIC] latency=0.0025s sid=79956096-b3ca-42af-8e3e-7cbb90cc0a20
+[METRIC] latency=0.0016s sid=79956096-b3ca-42af-8e3e-7cbb90cc0a20
+[METRIC] latency=0.0017s sid=79956096-b3ca-42af-8e3e-7cbb90cc0a20
+[METRIC] latency=0.0018s sid=79956096-b3ca-42af-8e3e-7cbb90cc0a20
+[METRIC] latency=0.0017s sid=79956096-b3ca-42af-8e3e-7cbb90cc0a20
+[METRIC] latency=0.0018s sid=79956096-b3ca-42af-8e3e-7cbb90cc0a20
+[METRIC] latency=0.0017s sid=79956096-b3ca-42af-8e3e-7cbb90cc0a20
+[METRIC] latency=0.0017s sid=79956096-b3ca-42af-8e3e-7cbb90cc0a20
+[METRIC] latency=0.0019s sid=79956096-b3ca-42af-8e3e-7cbb90cc0a20
+[METRIC] latency=0.0017s sid=79956096-b3ca-42af-8e3e-7cbb90cc0a20
+[METRIC] latency=0.0016s sid=79956096-b3ca-42af-8e3e-7cbb90cc0a20
+[METRIC] latency=0.0017s sid=79956096-b3ca-42af-8e3e-7cbb90cc0a20
+[METRIC] latency=0.0024s sid=fcc4483a-bb06-4fdd-8d6e-bd9e4b9f9cee127.0.0.1 - - [05/Dec/2025 17:11:39] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:39] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:40] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:40] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:40] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:40] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:40] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:40] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:40] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:40] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:40] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:40] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:40] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:40] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:40] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:40] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:40] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:40] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:40] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:40] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:40] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:40] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:40] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:40] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:40] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:40] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:40] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:40] "POST /profile HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:40] "GET /download-data?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:40] "POST /login HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:40] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:40] "GET /profile?user=anushka HTTP/1.1" 200 -
+127.0.0.1 - - [05/Dec/2025 17:11:40] "GET /profile?user=anushka HTTP/1.1" 200 -
+
+[METRIC] latency=0.0020s sid=fcc4483a-bb06-4fdd-8d6e-bd9e4b9f9cee
+[METRIC] latency=0.0018s sid=fcc4483a-bb06-4fdd-8d6e-bd9e4b9f9cee
+[METRIC] latency=0.0034s sid=fcc4483a-bb06-4fdd-8d6e-bd9e4b9f9cee
+[METRIC] latency=0.0023s sid=fcc4483a-bb06-4fdd-8d6e-bd9e4b9f9cee
+[METRIC] latency=0.0027s sid=99749f3f-522c-4793-a8ab-21431e94f0eb
+[METRIC] latency=0.0020s sid=99749f3f-522c-4793-a8ab-21431e94f0eb
+[METRIC] latency=0.0021s sid=99749f3f-522c-4793-a8ab-21431e94f0eb
+[METRIC] latency=0.0020s sid=99749f3f-522c-4793-a8ab-21431e94f0eb
+[METRIC] latency=0.0017s sid=99749f3f-522c-4793-a8ab-21431e94f0eb
+[METRIC] latency=0.0022s sid=a5b0d7c2-894d-4c4e-8685-025c67e82027
+[METRIC] latency=0.0019s sid=a5b0d7c2-894d-4c4e-8685-025c67e82027
+[METRIC] latency=0.0016s sid=a5b0d7c2-894d-4c4e-8685-025c67e82027
+[METRIC] latency=0.0016s sid=a5b0d7c2-894d-4c4e-8685-025c67e82027
+[METRIC] latency=0.0017s sid=56eeb889-23c7-41a3-9f6e-3ab553ab92b6
+[METRIC] latency=0.0016s sid=56eeb889-23c7-41a3-9f6e-3ab553ab92b6
+[METRIC] latency=0.0016s sid=56eeb889-23c7-41a3-9f6e-3ab553ab92b6
+[METRIC] latency=0.0024s sid=4d072fba-dc19-4e6c-95c5-a93c128de7f3
+[METRIC] latency=0.0020s sid=4d072fba-dc19-4e6c-95c5-a93c128de7f3
+[METRIC] latency=0.0019s sid=4d072fba-dc19-4e6c-95c5-a93c128de7f3
+[METRIC] latency=0.0023s sid=4d072fba-dc19-4e6c-95c5-a93c128de7f3
+[METRIC] latency=0.0018s sid=4d072fba-dc19-4e6c-95c5-a93c128de7f3
+[METRIC] latency=0.0020s sid=4d072fba-dc19-4e6c-95c5-a93c128de7f3
+[METRIC] latency=0.0020s sid=4d072fba-dc19-4e6c-95c5-a93c128de7f3
+[METRIC] latency=0.0022s sid=4d072fba-dc19-4e6c-95c5-a93c128de7f3
+[METRIC] latency=0.0020s sid=4d072fba-dc19-4e6c-95c5-a93c128de7f3
+[METRIC] latency=0.0020s sid=4d072fba-dc19-4e6c-95c5-a93c128de7f3
+[METRIC] latency=0.0017s sid=4d072fba-dc19-4e6c-95c5-a93c128de7f3
+[METRIC] latency=0.0026s sid=b4645075-44c2-4498-852f-f4b34febc532
+[METRIC] latency=0.0025s sid=b4645075-44c2-4498-852f-f4b34febc532
+[METRIC] latency=0.0027s sid=b4645075-44c2-4498-852f-f4b34febc532
+[METRIC] latency=0.0023s sid=b4645075-44c2-4498-852f-f4b34febc532
+[METRIC] latency=0.0022s sid=e1201fb7-7684-4eea-9b9a-0c7917838a7e
+[METRIC] latency=0.0020s sid=e1201fb7-7684-4eea-9b9a-0c7917838a7e
+[METRIC] latency=0.0018s sid=e1201fb7-7684-4eea-9b9a-0c7917838a7e
+[METRIC] latency=0.0019s sid=e1201fb7-7684-4eea-9b9a-0c7917838a7e
+[METRIC] latency=0.0019s sid=e1201fb7-7684-4eea-9b9a-0c7917838a7e
+[METRIC] latency=0.0021s sid=e1201fb7-7684-4eea-9b9a-0c7917838a7e
+[METRIC] latency=0.0027s sid=820368a0-810d-4f44-9ff6-f14294108461
+[METRIC] latency=0.0020s sid=820368a0-810d-4f44-9ff6-f14294108461
+[METRIC] latency=0.0023s sid=820368a0-810d-4f44-9ff6-f14294108461
+[METRIC] latency=0.0019s sid=820368a0-810d-4f44-9ff6-f14294108461
+[METRIC] latency=0.0023s sid=fa3ef018-78f7-47a8-b0c4-37fa172a5aad
+[METRIC] latency=0.0019s sid=fa3ef018-78f7-47a8-b0c4-37fa172a5aad
+[METRIC] latency=0.0019s sid=fa3ef018-78f7-47a8-b0c4-37fa172a5aad
+[METRIC] latency=0.0021s sid=fa3ef018-78f7-47a8-b0c4-37fa172a5aad
+[METRIC] latency=0.0019s sid=fa3ef018-78f7-47a8-b0c4-37fa172a5aad
+[METRIC] latency=0.0019s sid=fa3ef018-78f7-47a8-b0c4-37fa172a5aad
+[METRIC] latency=0.0026s sid=e517674d-381c-47fe-adb6-8c6032bb7449
+[METRIC] latency=0.0020s sid=e517674d-381c-47fe-adb6-8c6032bb7449
+[METRIC] latency=0.0019s sid=e517674d-381c-47fe-adb6-8c6032bb7449
+[METRIC] latency=0.0017s sid=e517674d-381c-47fe-adb6-8c6032bb7449
+[METRIC] latency=0.0020s sid=e517674d-381c-47fe-adb6-8c6032bb7449
+[METRIC] latency=0.0026s sid=e517674d-381c-47fe-adb6-8c6032bb7449
+[METRIC] latency=0.0024s sid=718ca374-d825-4a24-976c-c5d2193b0edd
+[METRIC] latency=0.0022s sid=718ca374-d825-4a24-976c-c5d2193b0edd
+[METRIC] latency=0.0022s sid=718ca374-d825-4a24-976c-c5d2193b0edd
+[METRIC] latency=0.0021s sid=0cbecd6a-409c-4c1a-bf37-84afa2392795
+[METRIC] latency=0.0021s sid=0cbecd6a-409c-4c1a-bf37-84afa2392795
+[METRIC] latency=0.0021s sid=0cbecd6a-409c-4c1a-bf37-84afa2392795
+[METRIC] latency=0.0018s sid=0cbecd6a-409c-4c1a-bf37-84afa2392795
+[METRIC] latency=0.0018s sid=0cbecd6a-409c-4c1a-bf37-84afa2392795
+[METRIC] latency=0.0017s sid=0cbecd6a-409c-4c1a-bf37-84afa2392795
+[METRIC] latency=0.0026s sid=4114a168-81a2-4f53-b40a-59a09db2a589
+[METRIC] latency=0.0020s sid=4114a168-81a2-4f53-b40a-59a09db2a589
+[METRIC] latency=0.0020s sid=4114a168-81a2-4f53-b40a-59a09db2a589
+[METRIC] latency=0.0018s sid=4114a168-81a2-4f53-b40a-59a09db2a589
+[METRIC] latency=0.0015s sid=4114a168-81a2-4f53-b40a-59a09db2a589
+[METRIC] latency=0.0017s sid=4114a168-81a2-4f53-b40a-59a09db2a589
+[METRIC] latency=0.0015s sid=4114a168-81a2-4f53-b40a-59a09db2a589
+[METRIC] latency=0.0016s sid=4114a168-81a2-4f53-b40a-59a09db2a589
+[METRIC] latency=0.0016s sid=4114a168-81a2-4f53-b40a-59a09db2a589
+[METRIC] latency=0.0018s sid=4114a168-81a2-4f53-b40a-59a09db2a589
+[METRIC] latency=0.0015s sid=4114a168-81a2-4f53-b40a-59a09db2a589
+[METRIC] latency=0.0022s sid=e0f35177-cc02-47b5-8737-f748403a922e
+[METRIC] latency=0.0016s sid=e0f35177-cc02-47b5-8737-f748403a922e
+[METRIC] latency=0.0017s sid=e0f35177-cc02-47b5-8737-f748403a922e
+[METRIC] latency=0.0018s sid=e0f35177-cc02-47b5-8737-f748403a922e
