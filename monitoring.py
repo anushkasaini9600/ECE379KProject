@@ -29,12 +29,14 @@ if MODE == "detection" and os.path.exists(modelPath):
 else:
     model = TransitionModel()
 
-#track session data
+#track session data - added request count and first flag timestamp
 sessions = defaultdict(lambda: {
     "currentState": "START",
     "loginFailures": 0,
     "downloads": 0,
     "suspiciousEvents": [],
+    "requestCount": 0,
+    "firstFlagTs": None,
 })
 
 #get session id from headers or create new one
@@ -81,7 +83,7 @@ def forward_request_to_backend():
     )
     return resp
 
-#log suspicious event
+#log suspicious event - updated so that first flag timestamp is recorded
 def log_suspicious(session_id, reason, prev_state, next_state):
     event = {
         "session": session_id,
@@ -91,7 +93,12 @@ def log_suspicious(session_id, reason, prev_state, next_state):
         "timestamp": time.time(),
     }
     sessions[session_id]["suspiciousEvents"].append(event)
+
+    if sessions[session_id]["firstFlagTs"] is None:
+        sessions[session_id]["firstFlagTs"] = event["timestamp"]
+
     print("[SUSPICIOUS]", event)
+
 
 #stats endpoint
 @app.route("/_stats", methods=["GET"])
@@ -112,6 +119,20 @@ def save_model():
     model.save(modelPath)
     return jsonify({"ok": True, "path": modelPath})
 
+#export session data
+@app.route("/_export", methods=["GET"])
+def export():
+    out = {}
+    for sid, s in sessions.items():
+        out[sid] = {
+            "requestCount": s["requestCount"],
+            "numFlags": len(s["suspiciousEvents"]),
+            "firstFlagTs": s["firstFlagTs"],
+            "reasons": [e["reason"] for e in s["suspiciousEvents"]],
+        }
+    return jsonify(out)
+
+
 #main proxy endpoint
 @app.route("/", defaults={"path": ""}, methods=["GET", "POST", "PUT", "DELETE"])
 @app.route("/<path:path>", methods=["GET", "POST", "PUT", "DELETE"])
@@ -125,6 +146,7 @@ def proxy(path):
     latency = time.time() - start_time
 
     next_state = map_state("/" + path, request.method, backend_resp.status_code)
+    sess["requestCount"] += 1 #increment count
 
 
     if MODE == "training":

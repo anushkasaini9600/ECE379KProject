@@ -7,6 +7,7 @@ import sys
 import requests
 # Configure monitoring service URL
 MONITOR_BASE = os.environ.get("MONITOR_BASE", "http://127.0.0.1:5002")
+BACKEND_BASE = os.environ.get("BACKEND_BASE", "http://127.0.0.1:5003")
 
 #start a new session
 def new_session():
@@ -61,6 +62,36 @@ def normal_user_session(username="anushka", correct_password="12345"):
         time.sleep(0.01)
 
     return sid
+#benign session to recreate regular user behavior BUT has some irregularities like one failed login but then correct login
+def benign_user_session(username="anushka", correct_password="12345"):
+    sid = new_session()
+    #failed
+    if random.random() < 0.25:
+        post("/login", sid, {"username": username, "password": "wrong_pw"})
+        time.sleep(0.01)
+    #correct
+    post("/login", sid, {"username": username, "password": correct_password})
+
+    max_actions = random.randint(8, 25)
+    actions = 0
+
+    while actions < max_actions:
+        get("/profile", sid, {"user": username})
+
+        if random.random() < 0.35:
+            get("/profile", sid, {"user": username})
+
+        if random.random() < 0.25:
+            post("/profile", sid, {"user": username, "email": f"{username}+b{actions}@gmail.com"})
+
+        if random.random() < 0.20:
+            get("/download-data", sid, {"user": username})
+
+        actions += 1
+        time.sleep(0.01)
+
+    return sid
+
 
 #attack
 def brute_force_attack_session(target_user="anushka"):
@@ -114,17 +145,24 @@ def direct_admin_attack_session():
     return sid
 
 
-def run_training():
-    print("Generating normal training traffic...")
+def run_training(kind="regular"):
+    print(f"Generating {kind} training traffic...")
+
     sessions_generated = 0
-    max_sessions = 100  # number of normal sessions to train on
+    max_sessions = 150  #150 sessions vs before it was just 100
 
     while sessions_generated < max_sessions:
-        normal_user_session()
+        if kind == "regular":
+            normal_user_session()
+        elif kind == "benign":
+            benign_user_session()
+        else:
+            raise ValueError("kind must be 'regular' or 'benign'")
+
         sessions_generated += 1
         time.sleep(0.02)
 
-    print(f"Finished training traffic: {sessions_generated} normal sessions.")
+    print(f"Finished {kind} training traffic: {sessions_generated} sessions.")
 
 
 def run_detection():
@@ -150,13 +188,15 @@ def run_detection():
 
 
 if __name__ == "__main__":
-    mode = "train"
+    mode = "train_regular"
     if len(sys.argv) >= 2:
         mode = sys.argv[1].lower()
 
-    if mode == "train":
-        run_training()
+    if mode == "train_regular":
+        run_training("regular")
+    elif mode == "train_benign":
+        run_training("benign")
     elif mode == "detect":
         run_detection()
     else:
-        print("Usage: python traffic.py [train|detect]")
+        print("Usage: python traffic.py [train_regular|train_benign|detect]")

@@ -1,0 +1,19 @@
+{
+  "transitions": {
+    "START|||LOGIN_SUCCESS": 150,
+    "LOGIN_SUCCESS|||GET /profile": 150,
+    "GET /profile|||DOWNLOAD_DATA": 108,
+    "DOWNLOAD_DATA|||GET /profile": 109,
+    "GET /profile|||GET /profile": 160,
+    "GET /profile|||POST /profile": 201,
+    "POST /profile|||GET /profile": 110,
+    "POST /profile|||DOWNLOAD_DATA": 56
+  },
+  "state_counts": {
+    "START": 150,
+    "LOGIN_SUCCESS": 150,
+    "GET /profile": 469,
+    "DOWNLOAD_DATA": 109,
+    "POST /profile": 166
+  }
+}

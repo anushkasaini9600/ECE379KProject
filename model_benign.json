@@ -1,0 +1,22 @@
+{
+  "transitions": {
+    "START|||LOGIN_FAILURE": 36,
+    "LOGIN_FAILURE|||LOGIN_SUCCESS": 36,
+    "LOGIN_SUCCESS|||GET /profile": 150,
+    "GET /profile|||DOWNLOAD_DATA": 393,
+    "DOWNLOAD_DATA|||GET /profile": 503,
+    "GET /profile|||GET /profile": 2300,
+    "GET /profile|||POST /profile": 595,
+    "POST /profile|||GET /profile": 432,
+    "START|||LOGIN_SUCCESS": 114,
+    "POST /profile|||DOWNLOAD_DATA": 141
+  },
+  "state_counts": {
+    "START": 150,
+    "LOGIN_FAILURE": 36,
+    "LOGIN_SUCCESS": 150,
+    "GET /profile": 3288,
+    "DOWNLOAD_DATA": 503,
+    "POST /profile": 573
+  }
+}
